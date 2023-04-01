@@ -10,7 +10,7 @@ app.get('/students',(request,response)=>{
 	response.json(students)
 })
 
-app.listen(5000,(err)=>{
+app.listen(8080,(err)=>{
 	if(!err) console.log('服务器1启动成功了,请求学生信息地址为：http://localhost:5000/students');
 })
 
